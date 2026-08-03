@@ -1,0 +1,20 @@
+<?xml class='1.0' encoding='utf-8'?>
+<widget id="com.rehan.onlineplayer" version="1.0.0" xmlns="http://www.cordova.io/ns/1.0">
+    <name>REHAN MUSIC</name>
+    <description>Pro Music Studio App</description>
+    <author email="rehanalam8969208@gmail.com">Rehan Alam</author>
+    
+    <content src="index.html" />
+    
+    <!-- Fix Localhost Timeout & White Screen Error -->
+    <preference name="AndroidInsecureFileModeEnabled" value="true" />
+    <preference name="loadUrlTimeoutValue" value="70000" />
+    <preference name="SplashScreenDelay" value="0" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="backupWebStorage" value="local" />
+
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+</widget>
